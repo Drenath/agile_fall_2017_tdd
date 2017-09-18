@@ -52,4 +52,16 @@ public class Car {
 	public String toString(){
 		return("Color: " + color + ", Speed: " + speed);
 	}
+	
+	public void decelerate(int amount) {
+		int limit = maxSpeed - speed;
+		if (amount >= limit) {
+			speed = limit;
+		}
+		else {
+			speed -= amount;
+		}
+	}
+	
+	
 }

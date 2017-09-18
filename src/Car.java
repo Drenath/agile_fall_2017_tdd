@@ -1,8 +1,7 @@
 /**
  * Implementation of a Car object for a game or simulation.
  * Includes acceleration and deceleration.
- * @author Brian Hogan
- * @author yourname
+ * @author Michael Van Dyke
  */
 public class Car {
 

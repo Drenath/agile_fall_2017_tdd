@@ -46,10 +46,10 @@ public class Car {
 	/**
 	 * Displays the object as a string in the format
 	 * "Color: red, Speed: 100"
+	 * @return 
 	 * @return string representation of object. 
 	 */
 	public String toString(){
-		// not implemented!
-		return("");
+		return("Color: " + color + ", Speed: " + speed);
 	}
 }
